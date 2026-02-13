@@ -5,13 +5,13 @@ import '../global.css';
 
 export default function RootLayout() {
     return <SafeAreaProvider >
-        <Tabs>
+        <Tabs >
             <Tabs.Screen name="index" options={{
                 title: "Home",
                 headerShown: false,
             }} />
             <Tabs.Screen name="explore" options={{
-                title: "Map",
+                title: "",
                 headerShown: false,
                 href: null,
             }} />
@@ -20,9 +20,7 @@ export default function RootLayout() {
                 headerShown: false,
             }} />
             <Tabs.Screen name="detail" options={{
-                title: "Map",
                 headerShown: false,
-                href: null,
             }} />
         </Tabs>
     </SafeAreaProvider>;
