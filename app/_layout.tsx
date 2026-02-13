@@ -9,6 +9,7 @@ export default function RootLayout() {
             <Tabs.Screen name="index" options={{
                 title: "Home",
                 headerShown: false,
+                tabBarStyle: { display: "none" },
             }} />
             <Tabs.Screen name="explore" options={{
                 title: "",

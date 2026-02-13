@@ -3,4 +3,8 @@
 
 @theme {
   --color-primary: #176ff2;
+  --font-permanent-marker: "PermanentMarker_400Regular";
+  --font-montserrat: "Montserrat_400Regular";
+  --font-montserrat-light: "Montserrat_300Light";
+  --font-montserrat-bold: "Montserrat_700Bold";
 }
