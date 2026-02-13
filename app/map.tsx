@@ -17,7 +17,7 @@ export default function Map() {
                 }}
             />
 
-            <View className="absolute top-12 left-5 items-center">
+            <View className="absolute top-14 left-8 items-center">
                 <View className="bg-white rounded-xl h-10 w-10 justify-center items-center shadow-lg">
                     <MaterialIcons name="keyboard-arrow-left" size={20} color="gray" />
                 </View>

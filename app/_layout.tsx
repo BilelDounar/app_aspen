@@ -16,13 +16,14 @@ export default function RootLayout() {
                 headerShown: false,
                 href: null,
             }} />
+            <Tabs.Screen name="detail" options={{
+                headerShown: false,
+            }} />
             <Tabs.Screen name="map" options={{
                 title: "Map",
                 headerShown: false,
             }} />
-            <Tabs.Screen name="detail" options={{
-                headerShown: false,
-            }} />
+
         </Tabs>
     </SafeAreaProvider>;
 };
