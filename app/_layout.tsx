@@ -4,7 +4,11 @@ import '../global.css';
 
 export default function RootLayout() {
     return <Tabs>
-        <Tabs.Screen name="index" options={{ title: "Home" }} />
+        <Tabs.Screen name="index" options={{
+            title: "Home",
+            headerShown: false,
+            tabBarStyle: { display: "none" },
+        }} />
         <Tabs.Screen name="explore" options={{
             title: "Map",
             headerShown: false,
